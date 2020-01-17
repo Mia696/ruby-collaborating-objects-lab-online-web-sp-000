@@ -11,7 +11,7 @@ class Song
     @@all << self
   end
   
-  delf.self 
+  def.self 
   @@all 
 end 
   
@@ -26,3 +26,4 @@ end
     self.artist = Artist.find_or_create_by_name(name)
   artist.add_songs(self)
   end
+end
